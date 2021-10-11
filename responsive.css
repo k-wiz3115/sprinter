@@ -1,0 +1,23 @@
+@media(max-width:1000px){
+  .menu{
+    display: none;
+  }
+
+  .hamburger{
+    display:block;
+  }
+
+  .item-container{
+    flex-direction: column;
+  }
+
+  .item{
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width:670px){
+  .item-heading{
+    font-size: 18px;
+  }
+}
